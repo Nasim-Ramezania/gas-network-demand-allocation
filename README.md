@@ -69,7 +69,7 @@ See [method and limitations](docs/method.md) and [validation results](docs/valid
 
 The workflow and packaged implementation were also checked locally against a confidential dataset, including node-by-node output comparison. Those data, outputs, exact counts, demand totals, geographic metadata, and distance diagnostics are excluded from this public package.
 
-The included synthetic fixtures and tests provide a reproducible public example. Local tests were run on Linux; Windows CI is configured and must run on GitHub before claiming Windows verification.
+The included synthetic fixtures and tests provide a reproducible public example. Automated tests and the synthetic command-line example passed in GitHub Actions on both Linux and Windows using Python 3.12.
 
 See [data privacy](docs/data_privacy.md) before adding any dataset.
 
