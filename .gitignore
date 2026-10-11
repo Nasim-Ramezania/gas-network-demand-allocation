@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+output/
+
+# Keep private and additional datasets local
+data/private/
+data/*
+!data/example/
+
+# Exclude GIS files and archives
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qix
+*.qmd
+*.gpkg
+*.zip
+
+.env
+.env.*
+.DS_Store
+Thumbs.db
