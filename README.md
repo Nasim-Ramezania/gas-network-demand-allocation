@@ -1,5 +1,6 @@
 # Gas Network Demand Allocation
 [![Tests](https://github.com/Nasim-Ramezania/gas-network-demand-allocation/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/Nasim-Ramezania/gas-network-demand-allocation/actions/workflows/tests.yml)
+
 A reproducible Python GIS workflow that assigns consumer demand to pipe-network endpoints. It uses GeoPandas and Shapely to associate each consumer with a nearest network segment, split the segment's demand equally between its endpoints, and sum loads at coincident nodes.
 
 **This is a spatial preprocessing project, not a gas-flow or pressure simulation.**
