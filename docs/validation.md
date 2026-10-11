@@ -1,6 +1,8 @@
 # Validation record
 
-Validation date: 2026-10-11 (UTC). Executed locally on Linux with Python 3.12. Windows has not yet been tested; the repository includes a GitHub Actions matrix to run the suite on both systems after publication.
+Local validation was performed on 2026-10-11 (UTC) on Linux using Python 3.12. Automated tests and the synthetic command-line example subsequently passed in GitHub Actions on both Linux and Windows using Python 3.12.
+
+CI evidence: [Successful Linux and Windows run](https://github.com/Nasim-Ramezania/gas-network-demand-allocation/actions/runs/38174067995).
 
 ## Automated tests
 
